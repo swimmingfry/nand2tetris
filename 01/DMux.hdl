@@ -1,6 +1,6 @@
 /**
  * 解多路器Demultiplexor:
- ** 关键点：使用sel控制输入值in在a位置或是b位置输出，只能根据sel值二选一位置输出
+ ** 关键点：使用sel控制输入值in在a位置或是b位置输出，只能根据sel值在a和b之间二选一输出
  * {a, b} = {in, 0} if sel == 0
  *          {0, in} if sel == 1
  * 思路: out: a = And(in, Not(sel)), b = And(in, sel)
