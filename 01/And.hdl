@@ -1,5 +1,6 @@
 /**
  * And gate: 
+ ** And门是两个输入参数相乘
  * out = 1 if (a == 1 and b == 1)
  *       0 otherwise
  * 思路: And = Nand(Nand(a, b), Nand(a, b))
