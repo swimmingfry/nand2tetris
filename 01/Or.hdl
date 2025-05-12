@@ -1,6 +1,7 @@
  /**
  * Or gate:
  * out = 1 if (a == 1 or b == 1)
+ ** 借用矩阵，增强理解
  *       0 otherwise
  * 思路: Or = Nand(Not(a), Not(b))
  */
